@@ -3,6 +3,7 @@ package me.misoryan.wurfelt;
 import com.connorlinfoot.actionbarapi.ActionBarAPI;
 import me.misoryan.wurfelt.commands.*;
 import me.misoryan.wurfelt.libs.Lib;
+import me.misoryan.wurfelt.listener.ChatListener;
 import me.misoryan.wurfelt.listener.FreezeListener;
 import me.misoryan.wurfelt.listener.VanishListener;
 import org.bukkit.Bukkit;
@@ -36,6 +37,9 @@ public class Wurfelt extends JavaPlugin {
         if (getConfig().getBoolean("Vanish.enable")) {
             Bukkit.getPluginCommand("v").setExecutor(new VanishCommand());
             Bukkit.getPluginManager().registerEvents(new VanishListener(), this);
+        }
+        if (getConfig().getBoolean("Chat.enable")) {
+            Bukkit.getPluginManager().registerEvents(new ChatListener(),this);
         }
         if (getConfig().getBoolean("Teleport.enable")) {
             Bukkit.getPluginCommand("tpa").setExecutor(new TpaCommand());
