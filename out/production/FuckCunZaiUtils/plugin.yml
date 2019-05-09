@@ -1,0 +1,25 @@
+name: Wurfelt
+main: me.wurfelt.wurfelt.Wurfelt
+version: 1.0
+author: 陈高影大佐
+description:
+softdepend: [ActionBarAPI]
+commands:
+  vanish:
+    aliases: [v]
+    description: NMSL
+  hash:
+    description: NMSL
+  tpa:
+    description: NMSL
+  tpaccept:
+    aliases: [tpyes]
+    description: NMSL
+  tpdeny:
+    aliases: [tpno]
+    description: NMSL
+  bc:
+    aliases: [broadcast]
+    description: NMSL
+  freeze:
+    description: NMSL

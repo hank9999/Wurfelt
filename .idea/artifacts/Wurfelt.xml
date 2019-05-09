@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Wurfelt">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wurfelt</output-path>
+    <root id="archive" name="Wurfelt.jar">
+      <element id="module-output" name="Wurfelt" />
+    </root>
+  </artifact>
+</component>
