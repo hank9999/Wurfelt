@@ -3,6 +3,7 @@ package me.misoryan.wurfelt.commands.ReportCommand;
 import me.misoryan.wurfelt.Wurfelt;
 import me.misoryan.wurfelt.libs.Lib;
 import me.misoryan.wurfelt.utils.ReportUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -26,6 +27,20 @@ public class ReportCommand implements CommandExecutor {
                 commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.sendErrorMessage("usage") + "/report <ID> <Reason>"));
                 return true;
             }
+            if (ReportUtils.checkPlayerReportExists(strings[0]) != null) {
+                commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("report.already-reported")));
+                return true;
+            }
+            String player = null;
+            if (Bukkit.getPlayerExact(strings[0]) != null) {
+                player = Bukkit.getPlayerExact(strings[0]).getName();
+            } else {
+                player = strings[0];
+            }
+            String reason = Lib.getCurrentArgsFormat(strings,1);
+            ReportUtils.createNewReport(player,reason,commandSender.getName());
+            commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("report.report-success")));
+            return true;
         }
         return true;
     }

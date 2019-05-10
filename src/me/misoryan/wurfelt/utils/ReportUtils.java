@@ -24,8 +24,14 @@ public class ReportUtils {
             Object obj = i.next();
             String key = obj.toString();
             String data = ReportCommand.ReportData.get(key);
-            if (data.startsWith(player)) {
-                return key;
+            String[] info = data.split("|");
+            if (info[0].toLowerCase().equals(player.toLowerCase())) {
+                if (info[0].equals(player)) {
+                    return key;
+                }
+                else {
+                    return key + "|" + info[0];
+                }
             }
         }
         return null;
