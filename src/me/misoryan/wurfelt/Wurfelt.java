@@ -2,6 +2,8 @@ package me.misoryan.wurfelt;
 
 import com.connorlinfoot.actionbarapi.ActionBarAPI;
 import me.misoryan.wurfelt.commands.*;
+import me.misoryan.wurfelt.commands.ReportCommand.ReportCommand;
+import me.misoryan.wurfelt.commands.ReportCommand.ReportsCommand;
 import me.misoryan.wurfelt.libs.Lib;
 import me.misoryan.wurfelt.listener.FreezeListener;
 import me.misoryan.wurfelt.listener.VanishListener;
@@ -97,8 +99,11 @@ public class Wurfelt extends JavaPlugin {
     @Override
     public void onEnable() {
         ins = this;
+        reloadConfig();
         register();
         vanishRunnable();
         Bukkit.getPluginCommand("wurfelt").setExecutor(new WurfeltCommand());
+        Bukkit.getPluginCommand("report").setExecutor(new ReportCommand());
+        Bukkit.getPluginCommand("reports").setExecutor(new ReportsCommand());
     }
 }

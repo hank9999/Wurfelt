@@ -23,8 +23,8 @@ freeze:
   title: '&cCLIENT CHECK REQUEST'
   freeze-other-message: '&7You froze &f[PLAYER] &7.'
   unfreeze-other-message: '&7You froze &f[PLAYER] &7.'
-  freeze-message: '&7Your client are now &c&lFROZEN &7by.a stuff.'
-  unfreeze-message: '&7Your client are now &a&lUNFROZEN &7by.a stuff.'
+  freeze-message: '&7Your client are now &c&lFROZEN &7by a stuff.'
+  unfreeze-message: '&7Your client are now &a&lUNFROZEN &7by a stuff.'
   lore:
     - ' '
     - '&7您目前已被 &f[OPERATOR] &7锁定了客户端&7.'
@@ -52,3 +52,5 @@ report:
     dealing: '&6DEALING'
     closed: '&4CLOSED'
     done: '&aDONE'
+  already-reported: '&7This player is already reported by others. Thanks for your report.'
+  report-success: '&7You successfully reported &f%player% &7,thanks for your report.'

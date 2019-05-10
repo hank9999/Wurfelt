@@ -42,3 +42,6 @@ commands:
     description: Broadcast a message.
   freeze:
     description: Freeze a player to use SS.
+  report:
+    aliases: [wdr]
+  reports:

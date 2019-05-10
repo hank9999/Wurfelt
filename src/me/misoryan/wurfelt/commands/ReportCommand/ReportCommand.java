@@ -23,7 +23,7 @@ public class ReportCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (command.getName().equalsIgnoreCase("wdr") || command.getName().equalsIgnoreCase("report")) {
-            if (strings[0] == null || strings[1] == null) {
+            if (strings.length < 2) {
                 commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.sendErrorMessage("usage") + "/report <ID> <Reason>"));
                 return true;
             }
@@ -31,7 +31,7 @@ public class ReportCommand implements CommandExecutor {
                 commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("report.already-reported")));
                 return true;
             }
-            String player = null;
+            String player;
             if (Bukkit.getPlayerExact(strings[0]) != null) {
                 player = Bukkit.getPlayerExact(strings[0]).getName();
             } else {
@@ -39,7 +39,7 @@ public class ReportCommand implements CommandExecutor {
             }
             String reason = Lib.getCurrentArgsFormat(strings,1);
             ReportUtils.createNewReport(player,reason,commandSender.getName());
-            commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("report.report-success")));
+            commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("report.report-success").replace("%player%",strings[0])));
             return true;
         }
         return true;
