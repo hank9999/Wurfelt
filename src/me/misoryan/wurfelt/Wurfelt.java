@@ -30,7 +30,7 @@ public class Wurfelt extends JavaPlugin {
         return ins;
     }
 
-    public void vanishRunnable( {
+    public void vanishRunnable() {
         if (getConfig().getBoolean("Vanish.enable")) {
             new BukkitRunnable() {
                 @Override
@@ -51,7 +51,7 @@ public class Wurfelt extends JavaPlugin {
                 }
             }.runTaskTimer(this, 0L, 20L);
         }
-    })
+    }
 
     public void register() {
         if (getConfig().getBoolean("Vanish.enable") && Bukkit.getPluginManager().getPlugin("ActionBarAPI").isEnabled()) {
