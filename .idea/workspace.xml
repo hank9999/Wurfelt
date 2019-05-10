@@ -8,8 +8,28 @@
   <component name="ChangeListManager">
     <list default="true" id="dc46bbcc-47a0-4c48-8440-55326511ac09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FuckCunZaiUtils/META-INF/FuckCunZaiUtils.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FuckCunZaiUtils/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FuckCunZaiUtils/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/BroadcastCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/FreezeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/HashCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpDenyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpacceptCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/VanishCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/WurfeltCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/libs/CommandDelay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/libs/Lib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/VanishListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/plugin.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/CommandDelay.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -51,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -147,19 +167,6 @@
             <path>
               <item name="FuckCunZaiUtils" type="b2602c69:ProjectViewProjectNode" />
               <item name="FuckCunZaiUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FuckCunZaiUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FuckCunZaiUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Wurfelt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FuckCunZaiUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FuckCunZaiUtils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -196,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557406789249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557450049893" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ActionBarAPI-1.5.4.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -229,7 +236,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25128534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -248,7 +254,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29614875" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.29521278" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,15 +309,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
         </state>
       </provider>
     </entry>

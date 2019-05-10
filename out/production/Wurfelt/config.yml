@@ -1,12 +1,19 @@
 #Wurfelt --- ErisBase Remake
 #Best Basic Plugin for 1.8+ Server
-#Author: Misoryan
+#Author: Misoryan & EmptyIrony
 #变量区分大小写 /wurfelt reload重载配置文件 <3
+
+#Deprecated (Stupid Code)
+Chat:
+  enable: false
+  op: '&c%player%: &f%message%'
+  default: '&9%player%: &f%message%'
 
 Commands:
   permission-denied: '&cPermission Denied.'
   current-usage: '&cCurrent Usage: &4'
   player-offline: '&cTargeted player is offline.'
+
 #Wurfelt Permissions:
   #Wurfelt.Admin - Admin Command of Wurfelt
 Teleport:

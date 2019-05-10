@@ -24,6 +24,9 @@ public class WurfeltCommand implements CommandExecutor {
                 commandSender.sendMessage(Lib.getCurrentText("&7Configuration is now &f&lRELOADED &7."));
                 return true;
             }
+            if (strings[0].equalsIgnoreCase("help")) {
+                commandSender.sendMessage(Lib.getCurrentText("&7This command is now &f&lMAKING &7."));
+            }
             commandSender.sendMessage(Lib.getCurrentText("Unknown arguments. Use &7/Wurfelt Help &ffor help."));
         }
         return true;
