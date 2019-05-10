@@ -7,6 +7,7 @@ import me.misoryan.wurfelt.listener.FreezeListener;
 import me.misoryan.wurfelt.listener.VanishListener;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.player.PlayerCommandSendEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -77,7 +78,6 @@ public class Wurfelt extends JavaPlugin {
             Bukkit.getPluginManager().registerEvents(new FreezeListener(), this);
             getLogger().info(Lib.getCurrentText("Now Loading Module: &3Freeze"));
         }
-
     }
 
     @Override

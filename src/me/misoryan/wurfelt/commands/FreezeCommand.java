@@ -36,13 +36,14 @@ public class FreezeCommand implements CommandExecutor {
             }
             if (Bukkit.getPlayerExact(args[0]) == null) {
                 sender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.player-offline")));
+                return true;
             }
             if (Bukkit.getPlayerExact(args[0]).hasPermission("Wurfelt.SS") || Bukkit.getPlayerExact(args[0]).hasPermission("Wurfelt.Admin")) {
                 sender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.permission-denied")));
                 return true;
             }
             else if (freezeing.get(args[0]) == null) {
-                freezeing.put(args[0], sender.getName());
+                freezeing.put(Bukkit.getPlayer(args[0]).getName(), sender.getName());
                 final Inventory inventory = Bukkit.createInventory(null, 9, Lib.getCurrentText(Wurfelt.ins.getConfig().getString("freeze.title")));
                 final ItemStack itemStack = new ItemStack(Material.YELLOW_DYE);
                 final ItemMeta itemMeta = itemStack.getItemMeta();
@@ -67,7 +68,7 @@ public class FreezeCommand implements CommandExecutor {
                 sender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("freeze.freeze-other-message").replace("[PLAYER]",args[0])));
             }
             else {
-                freezeing.remove(args[0]);
+                freezeing.remove(Bukkit.getPlayer(args[0]).getName());
                 Bukkit.getPlayerExact(args[0]).closeInventory();
                 Bukkit.getPlayerExact(args[0]).sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("freeze.unfreeze-message").replace("[PLAYER]",args[0])));
                 sender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("freeze.unfreeze-other-message").replace("[PLAYER]",args[0])));
