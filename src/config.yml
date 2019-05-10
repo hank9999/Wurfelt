@@ -12,6 +12,8 @@ Commands:
 
 #Wurfelt Permissions:
   #Wurfelt.Admin - Admin Command of Wurfelt
+GMCommand:
+  enable: false
 Teleport:
   #Command: /tpa /tpaccept (/tpyes) /tpdeny (/tpno)
   #Permission: Wurfelt.Broadcast

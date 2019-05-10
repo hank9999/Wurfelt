@@ -72,6 +72,9 @@ public class Wurfelt extends JavaPlugin {
             Bukkit.getPluginCommand("bc").setExecutor(new BroadcastCommand());
             getLogger().info(Lib.getCurrentText("Now Loading Module: &3Broadcast"));
         }
+        if (getConfig().getBoolean("GMCommand.enable")) {
+            Bukkit.getPluginCommand("gm").setExecutor(new GMCommand());
+        }
 
         if (getConfig().getBoolean("freeze.enable")) {
             Bukkit.getPluginCommand("freeze").setExecutor(new FreezeCommand());
