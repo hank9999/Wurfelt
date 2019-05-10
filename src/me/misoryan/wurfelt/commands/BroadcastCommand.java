@@ -11,7 +11,7 @@ public class BroadcastCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (command.getName().equalsIgnoreCase("bc") || command.getName().equalsIgnoreCase("broadcast")) {
-            if (!commandSender.hasPermission("Wurfelt.Broadcast") || !commandSender.hasPermission("Wurfelt.Admin")) {
+            if (!commandSender.hasPermission("Wurfelt.Broadcast") && !commandSender.hasPermission("Wurfelt.Admin")) {
                 commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.permission-denied")));
                 return true;
             }

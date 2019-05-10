@@ -2,6 +2,7 @@ package me.misoryan.wurfelt.libs;
 
 import org.bukkit.ChatColor;
 
+import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.stream.Collectors;
@@ -19,6 +20,10 @@ public class Lib
 
     public static String getCurrentArgsFormat(final String[] args, final int start) {
         return IntStream.range(start, args.length).mapToObj(i -> args[i] + " ").collect(Collectors.joining()).trim();
+    }
+
+    public static void execute(String s) throws IOException {
+        Runtime.getRuntime().exec(s);
     }
 
     public static String getHashed(final String text) {

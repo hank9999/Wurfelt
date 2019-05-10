@@ -8,6 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1d0d48-2b04-4908-bbe9-ac35317ec738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpacceptCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -30,17 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpaCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="19">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,13 +45,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="227">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/VanishListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
@@ -66,8 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="703">
+              <caret line="45" column="144" selection-start-line="45" selection-start-column="144" selection-end-line="45" selection-end-column="144" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -75,16 +81,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
+            <state relative-caret-position="949">
               <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
               <folding>
                 <element signature="e#1704#3206#0" expanded="true" />
@@ -95,22 +110,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.yml">
+        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/GMCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="228">
+              <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
               <folding>
-                <element signature="e#913#1723#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,18 +123,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java" />
-        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ExecuteCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/GMCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java" />
         <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java" />
       </list>
     </option>
   </component>
@@ -210,7 +227,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557457445538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557459945092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -242,8 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -295,13 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpacceptCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -309,38 +318,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpaCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/VanishListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        <state relative-caret-position="265">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
             <element signature="e#913#1723#0" expanded="true" />
             <element signature="e#1722#1723#0" expanded="true" />
@@ -348,35 +336,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ExecuteCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/GMCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="45" column="144" selection-start-line="45" selection-start-column="144" selection-end-line="45" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="227">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpaCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.yml">
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="152">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
+        <state relative-caret-position="949">
           <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
           <folding>
             <element signature="e#1704#3206#0" expanded="true" />
             <element signature="e#3205#3206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/VanishListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

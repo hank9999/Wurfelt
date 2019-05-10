@@ -24,7 +24,7 @@ public class VanishCommand implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (command.getName().equalsIgnoreCase("v") || command.getName().equalsIgnoreCase("vanish")) {
             Player sender = Bukkit.getPlayer(commandSender.getName());
-            if (!commandSender.hasPermission("Wurfelt.Vanish") || !commandSender.hasPermission("Wurfelt.Admin")) {
+            if (!commandSender.hasPermission("Wurfelt.Vanish") && !commandSender.hasPermission("Wurfelt.Admin")) {
                 commandSender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Command.permission-denied")));
                 return true;
             }
