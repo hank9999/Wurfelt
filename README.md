@@ -9,7 +9,7 @@ https://github.com/PasIgnis/Wurfelt/blob/master/libraries
 ActionBarAPI (Vanish功能,如果没有安装会无法使用此功能)
 
 # 权限
-主权限：
+  主权限：
   Wurfelt.Admin 使用管理应当可以使用的权限
 子权限 （直接从plugin.yml复制了 自己看吧）：
   Wurfelt.broadcast:
