@@ -5,7 +5,9 @@ import me.misoryan.wurfelt.commands.*;
 import me.misoryan.wurfelt.libs.Lib;
 import me.misoryan.wurfelt.listener.FreezeListener;
 import me.misoryan.wurfelt.listener.VanishListener;
+import me.misoryan.wurfelt.utils.ReportUtils;
 import org.bukkit.Bukkit;
+import org.bukkit.craftbukkit.libs.jline.internal.Nullable;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerCommandSendEvent;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -27,8 +29,17 @@ public class Wurfelt extends JavaPlugin {
         this.saveDefaultConfig();
     }
 
-    public Wurfelt getInstance() {
-        return ins;
+    public String sendErrorMessage(String type) {
+        if (type.equalsIgnoreCase("pex")) {
+            return Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.permission-denied"));
+        }
+        if (type.equalsIgnoreCase("usage")) {
+            return Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.current-usage"));
+        }
+        if (type.equalsIgnoreCase("offline")) {
+            return Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.player-offline"));
+        }
+        return null;
     }
 
     public void vanishRunnable() {

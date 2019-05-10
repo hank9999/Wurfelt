@@ -3,34 +3,22 @@
 #Author: Misoryan & EmptyIrony
 #变量区分大小写 /wurfelt reload重载配置文件 <3
 
-#Deprecated (Stupid Code)
-
 Commands:
   permission-denied: '&cPermission Denied.'
   current-usage: '&cCurrent Usage: &4'
   player-offline: '&cTargeted player is offline.'
 
-#Wurfelt Permissions:
-  #Wurfelt.Admin - Admin Command of Wurfelt
 GMCommand:
   enable: false
 Teleport:
-  #Command: /tpa /tpaccept (/tpyes) /tpdeny (/tpno)
-  #Permission: Wurfelt.Broadcast
   enable: true
 Broadcast:
-  #Command: /bc /broadcast
-  #Permission: Wurfelt.Broadcast
   enable: true
   prefix: '&8[&3Alert&8] &7'
 Vanish:
-  #ActionBarAPI Requires!!!!
-  #Command: /vanish /v
   #Permission: Wurfelt.Vanish
   enable: false
 freeze:
-  #Command: /freeze
-  #Permission: Wurfelt.SS
   enable: true
   title: '&cCLIENT CHECK REQUEST'
   freeze-other-message: '&7You froze &f[PLAYER] &7.'
@@ -58,3 +46,9 @@ freeze:
       - ' &f因为其 &c拒绝客户端检查 &f.'
       - ' '
     command: 'ban [PLAYER] 30d 拒绝客户端检查'
+report:
+  status:
+    waiting: '&cWAITING'
+    dealing: '&6DEALING'
+    closed: '&4CLOSED'
+    done: '&aDONE'
