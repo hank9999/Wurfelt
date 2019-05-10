@@ -30,6 +30,29 @@ public class Wurfelt extends JavaPlugin {
         return ins;
     }
 
+    public void vanishRunnable( {
+        if (getConfig().getBoolean("Vanish.enable")) {
+            new BukkitRunnable() {
+                @Override
+                public void run() {
+                    for (Player p : Bukkit.getOnlinePlayers()) {
+                        if (VanishCommand.VanishData.get(p) != null) {
+                            for (Player player : Bukkit.getOnlinePlayers()) {
+                                p.hidePlayer(player);
+                            }
+                            ActionBarAPI.sendActionBar(p, Lib.getCurrentText("&f你目前处于&c隐身&f状态中"));
+                        } else {
+                            for (Player player : Bukkit.getOnlinePlayers()) {
+                                p.showPlayer(player);
+                                player.showPlayer(p);
+                            }
+                        }
+                    }
+                }
+            }.runTaskTimer(this, 0L, 20L);
+        }
+    })
+
     public void register() {
         if (getConfig().getBoolean("Vanish.enable") && Bukkit.getPluginManager().getPlugin("ActionBarAPI").isEnabled()) {
             Bukkit.getPluginCommand("v").setExecutor(new VanishCommand());
@@ -60,30 +83,8 @@ public class Wurfelt extends JavaPlugin {
     @Override
     public void onEnable() {
         ins = this;
-        /*
-        VanishListener所需要的check
-         */
         register();
+        vanishRunnable();
         Bukkit.getPluginCommand("wurfelt").setExecutor(new WurfeltCommand());
-        if (getConfig().getBoolean("Vanish.enable")) {
-            new BukkitRunnable() {
-                @Override
-                public void run() {
-                    for (Player p : Bukkit.getOnlinePlayers()) {
-                        if (VanishCommand.VanishData.get(p) != null) {
-                            for (Player player : Bukkit.getOnlinePlayers()) {
-                                p.hidePlayer(player);
-                            }
-                            ActionBarAPI.sendActionBar(p, Lib.getCurrentText("&f你目前处于&c隐身&f状态中"));
-                        } else {
-                            for (Player player : Bukkit.getOnlinePlayers()) {
-                                p.showPlayer(player);
-                                player.showPlayer(p);
-                            }
-                        }
-                    }
-                }
-            }.runTaskTimer(this, 0L, 20L);
-        }
     }
 }

@@ -8,28 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1d0d48-2b04-4908-bbe9-ac35317ec738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/ActionBarAPI-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/spigot-1.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/BroadcastCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/FreezeCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpDenyCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpaCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpacceptCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/VanishCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/WurfeltCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/libs/Lib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/ChatListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/VanishListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/ChatListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="1140">
+              <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -211,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557454751086" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557455326866" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -243,7 +221,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -368,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        <state relative-caret-position="1140">
+          <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
         </state>
       </provider>
     </entry>
