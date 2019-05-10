@@ -3,7 +3,6 @@ package me.misoryan.wurfelt;
 import com.connorlinfoot.actionbarapi.ActionBarAPI;
 import me.misoryan.wurfelt.commands.*;
 import me.misoryan.wurfelt.libs.Lib;
-import me.misoryan.wurfelt.listener.ChatListener;
 import me.misoryan.wurfelt.listener.FreezeListener;
 import me.misoryan.wurfelt.listener.VanishListener;
 import org.bukkit.Bukkit;
@@ -36,11 +35,6 @@ public class Wurfelt extends JavaPlugin {
             Bukkit.getPluginCommand("v").setExecutor(new VanishCommand());
             Bukkit.getPluginManager().registerEvents(new VanishListener(), this);
             getLogger().info(Lib.getCurrentText("Now Loading Module: &3Vanish"));
-        }
-
-        if (getConfig().getBoolean("Chat.enable")) {
-            Bukkit.getPluginManager().registerEvents(new ChatListener(),this);
-            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Chat"));
         }
 
         if (getConfig().getBoolean("Teleport.enable")) {
@@ -78,7 +72,7 @@ public class Wurfelt extends JavaPlugin {
                     for (Player p : Bukkit.getOnlinePlayers()) {
                         if (VanishCommand.VanishData.get(p) != null) {
                             for (Player player : Bukkit.getOnlinePlayers()) {
-                                player.hidePlayer(p);
+                                p.hidePlayer(player);
                             }
                             ActionBarAPI.sendActionBar(p, Lib.getCurrentText("&f你目前处于&c隐身&f状态中"));
                         } else {

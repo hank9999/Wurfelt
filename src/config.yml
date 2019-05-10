@@ -4,10 +4,6 @@
 #变量区分大小写 /wurfelt reload重载配置文件 <3
 
 #Deprecated (Stupid Code)
-Chat:
-  enable: false
-  op: '&c%player%: &f%message%'
-  default: '&9%player%: &f%message%'
 
 Commands:
   permission-denied: '&cPermission Denied.'
