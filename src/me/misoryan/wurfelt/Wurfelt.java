@@ -31,32 +31,46 @@ public class Wurfelt extends JavaPlugin {
         return ins;
     }
 
-    @Override
-    public void onEnable() {
-        ins = this;
-        if (getConfig().getBoolean("Vanish.enable")) {
+    public void register() {
+        if (getConfig().getBoolean("Vanish.enable") && Bukkit.getPluginManager().getPlugin("ActionBarAPI").isEnabled()) {
             Bukkit.getPluginCommand("v").setExecutor(new VanishCommand());
             Bukkit.getPluginManager().registerEvents(new VanishListener(), this);
+            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Vanish"));
         }
+
         if (getConfig().getBoolean("Chat.enable")) {
             Bukkit.getPluginManager().registerEvents(new ChatListener(),this);
+            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Chat"));
         }
+
         if (getConfig().getBoolean("Teleport.enable")) {
             Bukkit.getPluginCommand("tpa").setExecutor(new TpaCommand());
             Bukkit.getPluginCommand("tpaccept").setExecutor(new TpacceptCommand());
             Bukkit.getPluginCommand("tpdeny").setExecutor(new TpDenyCommand());
+            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Teleport"));
         }
+
         if (getConfig().getBoolean("Broadcast.enable")) {
             Bukkit.getPluginCommand("bc").setExecutor(new BroadcastCommand());
+            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Broadcast"));
         }
+
         if (getConfig().getBoolean("freeze.enable")) {
             Bukkit.getPluginCommand("freeze").setExecutor(new FreezeCommand());
             Bukkit.getPluginManager().registerEvents(new FreezeListener(), this);
+            getLogger().info(Lib.getCurrentText("Now Loading Module: &3Freeze"));
         }
-        Bukkit.getPluginCommand("wurfelt").setExecutor(new WurfeltCommand());
+
+    }
+
+    @Override
+    public void onEnable() {
+        ins = this;
         /*
         VanishListener所需要的check
          */
+        register();
+        Bukkit.getPluginCommand("wurfelt").setExecutor(new WurfeltCommand());
         if (getConfig().getBoolean("Vanish.enable")) {
             new BukkitRunnable() {
                 @Override

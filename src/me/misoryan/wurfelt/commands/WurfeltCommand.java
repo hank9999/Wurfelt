@@ -20,6 +20,7 @@ public class WurfeltCommand implements CommandExecutor {
             }
             if (strings[0].equalsIgnoreCase("reload")) {
                 Wurfelt.ins.reloadConfig();
+                Wurfelt.ins.register();
                 commandSender.sendMessage(Lib.getCurrentText("&7Configuration is now &f&lRELOADED &7."));
                 return true;
             }
