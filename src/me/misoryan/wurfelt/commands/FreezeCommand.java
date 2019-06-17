@@ -26,7 +26,7 @@ public class FreezeCommand implements CommandExecutor {
     @Override
     public boolean onCommand(final CommandSender sender, final Command command, final String label, final String[] args) {
         if (command.getName().equalsIgnoreCase("freeze")) {
-            if (!sender.hasPermission("Wurfelt.SS") && !sender.hasPermission("Wurfelt.Admin")) {
+            if (!sender.hasPermission("Wurfelt.SS")) {
                 sender.sendMessage(Lib.getCurrentText(Wurfelt.ins.getConfig().getString("Commands.permission-denied")));
                 return true;
             }
