@@ -45,7 +45,7 @@ public class FreezeCommand implements CommandExecutor {
             else if (freezeing.get(args[0]) == null) {
                 freezeing.put(Bukkit.getPlayer(args[0]).getName(), sender.getName());
                 final Inventory inventory = Bukkit.createInventory(null, 9, Lib.getCurrentText(Wurfelt.ins.getConfig().getString("freeze.title")));
-                final ItemStack itemStack = new ItemStack(Material.YELLOW_DYE);
+                final ItemStack itemStack = new ItemStack(Material.STONE);
                 final ItemMeta itemMeta = itemStack.getItemMeta();
                 int i = 0;
                 for (final String l : Wurfelt.ins.getConfig().getStringList("freeze.lore")) {

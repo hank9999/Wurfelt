@@ -8,16 +8,6 @@ Commands:
   current-usage: '&cCurrent Usage: &4'
   player-offline: '&cTargeted player is offline.'
 
-GMCommand:
-  enable: false
-Teleport:
-  enable: true
-Broadcast:
-  enable: true
-  prefix: '&8[&3Alert&8] &7'
-Vanish:
-  #Permission: Wurfelt.Vanish
-  enable: false
 freeze:
   enable: true
   title: '&cCLIENT CHECK REQUEST'

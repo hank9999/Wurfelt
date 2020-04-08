@@ -7,7 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="spigot-1.14" level="project" />
-    <orderEntry type="library" name="ActionBarAPI-1.5.4" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://H:/Spigot-1.13.2-f96d8c3-20190425-0439.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://H:/Spigot-1.13.2-f96d8c3-20190425-0439.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
