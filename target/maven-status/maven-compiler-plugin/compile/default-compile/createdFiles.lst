@@ -1,0 +1,9 @@
+me\misoryan\wurfelt\commands\FreezeCommand.class
+me\misoryan\wurfelt\Wurfelt.class
+me\misoryan\wurfelt\commands\ReportCommand\ReportCommand.class
+me\misoryan\wurfelt\listener\FreezeListener$1.class
+me\misoryan\wurfelt\commands\ReportCommand\ReportsCommand.class
+me\misoryan\wurfelt\commands\WurfeltCommand.class
+me\misoryan\wurfelt\listener\FreezeListener.class
+me\misoryan\wurfelt\libs\Lib.class
+me\misoryan\wurfelt\utils\ReportUtils.class

@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Wurfelt" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1d0d48-2b04-4908-bbe9-ac35317ec738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="a034830f-d910-4b3b-9b6a-063e003a229a" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Wurfelt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ActionBarAPI_1_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wurfelt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Wurfelt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Wurfelt/Wurfelt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Wurfelt/Wurfelt.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/BroadcastCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/GMCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpDenyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpaCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/TpacceptCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/VanishCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/VanishListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Wurfelt/Wurfelt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/META-INF/Wurfelt.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/BroadcastCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/FreezeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/GMCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/ReportCommand/ReportCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/ReportCommand/ReportsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpDenyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpacceptCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/VanishCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/WurfeltCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/libs/Lib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/VanishListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/utils/ReportUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ReportCommand/ReportCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ReportCommand/ReportsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/utils/ReportUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,58 +52,91 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1aFY77o1YomMLyhtaaqXa6ZdCy2" />
+  <component name="ProjectId" id="1bI8Tudi2RIJwCtT5m8TAeIPRlb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557477948093" />
-    <property name="last_opened_file_path" value="H:/Spigot-1.13.2-f96d8c3-20190425-0439.jar!/" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.15429688" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Wurfelt build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa1d0d48-2b04-4908-bbe9-ac35317ec738" name="Default Changelist" comment="" />
-      <created>1557450848566</created>
+      <changelist id="a034830f-d910-4b3b-9b6a-063e003a229a" name="默认更改列表" comment="" />
+      <created>1588308258463</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557450848566</updated>
+      <updated>1588308258463</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="761" y="327" key="FileChooserDialogImpl" timestamp="1586332997792">
+    <state x="808" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588308267018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586332997792" />
-    <state x="461" y="147" key="SettingsEditor" timestamp="1586332998605">
+    <state x="808" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588308267018" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1588310000100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586332998605" />
-    <state x="658" y="604" key="com.intellij.ide.util.TipDialog" timestamp="1586332848786">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1588310000100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="604" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586332848786" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1588310000100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1588310000100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
   </component>
 </project>

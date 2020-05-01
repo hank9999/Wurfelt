@@ -1,0 +1,24 @@
+name: Wurfelt
+version: ${project.version}
+main: me.misoryan.wurfelt.Wurfelt
+api-version: 1.13
+description: Best Basic Plugin for 1.8+ Server!
+authors: [Misoryan, hank9999]
+
+permissions:
+  Wurfelt.admin:
+    default: op
+    children:
+      Wurfelt.SS: true
+  Wurfelt.SS:
+    description: Permission to use Freeze (Screen Share) Command.
+    default: op
+
+commands:
+  wurfelt:
+    description: Main Command.
+  freeze:
+    description: Freeze a player to use SS.
+  report:
+    aliases: [wdr]
+  reports:
