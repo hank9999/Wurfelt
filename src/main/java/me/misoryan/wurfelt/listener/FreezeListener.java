@@ -58,11 +58,15 @@ public class FreezeListener implements Listener {
                     for (final String l : Wurfelt.ins.getConfig().getStringList("freeze.lore")) {
                         ++i;
                     }
-                    final ArrayList<String> lore = new ArrayList<String>();
+                    final ArrayList<String> lore = new ArrayList<>();
                     i = 0;
                     for (String j : Wurfelt.ins.getConfig().getStringList("freeze.lore")) {
                         j = Lib.getCurrentText(j);
-                        j = j.replace("[OPERATOR]", FreezeCommand.freezeing.get(e.getPlayer().getName()));
+                        if (FreezeCommand.freezeing.get(e.getPlayer().getName()) == null) {
+                            j = j.replaceAll("[OPERATOR]", "Null");
+                        } else {
+                            j = j.replaceAll("[OPERATOR]", FreezeCommand.freezeing.get(e.getPlayer().getName()));
+                        }
                         lore.add(j);
                         ++i;
                     }

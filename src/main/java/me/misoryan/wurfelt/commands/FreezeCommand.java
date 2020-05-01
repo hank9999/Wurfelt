@@ -21,7 +21,7 @@ public class FreezeCommand implements CommandExecutor {
     public static Map<String, String> freezeing;
 
     public FreezeCommand() {
-        freezeing = new HashMap<String, String>();
+        freezeing = new HashMap<>();
     }
 
     @Override
@@ -55,7 +55,11 @@ public class FreezeCommand implements CommandExecutor {
                 i = 0;
                 for (String j : Wurfelt.ins.getConfig().getStringList("freeze.lore")) {
                     j = Lib.getCurrentText(j);
-                    j = j.replace("[OPERATOR]", freezeing.get(args[0]));
+                    if (freezeing.get(args[0]) == null) {
+                        j = j.replace("[OPERATOR]", "Null");
+                    } else {
+                        j = j.replace("[OPERATOR]", freezeing.get(args[0]));
+                    }
                     lore.add(j);
                     ++i;
                 }

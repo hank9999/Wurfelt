@@ -1,48 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a034830f-d910-4b3b-9b6a-063e003a229a" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Wurfelt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ActionBarAPI_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a034830f-d910-4b3b-9b6a-063e003a229a" name="默认更改列表" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wurfelt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Wurfelt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Wurfelt/Wurfelt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/META-INF/Wurfelt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/Wurfelt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/BroadcastCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/FreezeCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/GMCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/ReportCommand/ReportCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/ReportCommand/ReportsCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpDenyCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpaCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/TpacceptCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/VanishCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/commands/WurfeltCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/libs/Lib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/FreezeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/listener/VanishListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/me/misoryan/wurfelt/utils/ReportUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wurfelt/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/Wurfelt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/FreezeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ReportCommand/ReportCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/ReportCommand/ReportsCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/commands/WurfeltCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/libs/Lib.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/listener/FreezeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/misoryan/wurfelt/utils/ReportUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/misoryan/wurfelt/commands/FreezeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/misoryan/wurfelt/commands/FreezeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/misoryan/wurfelt/listener/FreezeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/misoryan/wurfelt/listener/FreezeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Wurfelt-1.1-1905010-Fix.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Wurfelt-1.1-1905010-Fix.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-Wurfelt-1.1-1905010-Fix.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Wurfelt-1.1-1905010-Fix.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,28 +80,53 @@
       <option name="presentableId" value="Default" />
       <updated>1588308258463</updated>
     </task>
+    <task id="LOCAL-00001" summary="move to maven">
+      <created>1588310255114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588310255114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="move to maven" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588308267018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588308267018" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1588310000100">
+    <state x="620" y="113" key="CommitChangelistDialog2" timestamp="1588312479620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1588310000100">
+    <state x="620" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588312479620" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1588310203617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1588310000100">
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588310203617" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1588312479668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1588310000100">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588312479668" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1588312479668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588310000100" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588312479668" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1588312479668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588312479668" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1588312479668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588312479668" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588310259757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588310259757" />
   </component>
 </project>
